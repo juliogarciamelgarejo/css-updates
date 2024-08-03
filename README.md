@@ -1,5 +1,7 @@
 # :star2: CSS Updates
 
+![CSS Banner](media/css-banner.jpg)
+
 **Explore the latest CSS features and functions with detailed examples and updates.**
 
 ## :fire: Overview
@@ -19,10 +21,13 @@ This repository provides an overview of new CSS properties and features. Organiz
 
 ## :earth_americas: Resources
 
+- [:link: Novedades CSS 2024 - CarontEstudio - David de Lamo (2024)](https://carontestudio.com/blog/novedades-css-2024/)
 - [:link: Can I Use](https://caniuse.com/)
 - [:link: MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [:link: CSS Tricks](https://css-tricks.com/)
 - [:link: W3C CSS Specifications](https://www.w3.org/Style/CSS/)
+
+> The presentation image used in the README.md is property of the website [Freefrontend](https://freefrontend.com/css-code-examples/)
 
 ## :scroll: License
 
