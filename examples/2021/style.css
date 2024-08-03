@@ -1,0 +1,16 @@
+.example-aspect-radio{
+
+    & div{
+        width: 100px;
+        background-color: red;
+    }
+
+    .hd{
+        aspect-ratio: 16/9;
+    }
+
+    .square{
+        aspect-ratio: 1;
+    }
+
+}

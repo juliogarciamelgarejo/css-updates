@@ -1,0 +1,115 @@
+.example-new-color-spaces{
+
+    & div{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    & div > div{
+        width: 100px;
+        height: 100px;
+        font-size: 1.5rem;
+        line-height: 100px;
+        border-radius: .5rem;
+    }
+
+    .lab{
+        background-color: lab(87.8 -79 81);
+    }
+
+    .lch{
+        background-color: lch(87.8 113 134deg);
+    }
+
+    .oklab{
+        background-color: oklab(0.87 -0.2 0.18);
+    }
+
+    .oklch{
+        background-color: oklch(0.87 0.29 142deg);
+    }
+
+}
+
+.example-color-mix{
+
+    .colors{
+
+        div{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            
+            background-color: red;
+        }
+
+        .text{
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .cosmos{
+            background-color: green;
+        }
+
+        .wanda{
+            background-color: pink;
+        }
+
+        .poof{
+            background-color: color-mix(in srgb, green,#f8c0ff81);
+        }
+    }
+
+}
+
+.example-container{
+
+}
+
+
+.example-nesting{
+    
+    h3{
+        color: cadetblue;
+    }
+
+    div{
+
+        background-color: #121212;
+        border-radius: 10px;
+        padding: 2rem 1rem;
+
+        p{
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #e0e0e0;
+            margin: 0;
+
+            span{
+                color: aqua;
+                font-weight: bold;
+
+                &:hover{
+                    color: gold;
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+
+            }
+        }
+
+        button{
+            background-color: chartreuse;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: .5rem;
+            border-radius: .5rem;
+            margin-top: 2rem;
+        }
+
+    }
+
+}
